@@ -24,9 +24,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/materialize-css/dist/css/materialize.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/materialize-css/dist/js/materialize.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pretty-test"
+    }
+  },
+  "defaultProject": "pretty-test",
+  "cli": {
+    "analytics": "b980fc7d-95fc-40ae-8a9a-0e55f93b3fe4"
+  }
 }
